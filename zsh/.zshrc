@@ -1,12 +1,22 @@
-#
-# ~/.bashrc
-#
+[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
+# Example install plugins
+plug "zap-zsh/supercharge"
+plug "zsh-users/zsh-autosuggestions"
+
+#Example plugin pinned to specifc commit or branch, just pass the git reference
+plug "zsh-users/zsh-syntax-highlighting" "122dc46"
+
+# Example theme
+plug "shadowelite-sec/atmachine-prompt"
+plug "zap-zsh/completions"
+plug "hlissner/zsh-autopair"
+plug " zap-zsh/sudo"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 #eval "$(starship init bash)"
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
 
 # export
 export PATH=$PATH:$HOME/.local/bin
@@ -19,10 +29,11 @@ alias ls="ls --color=auto"
 alias vi="nvim"
 alias vim="nvim"
 alias zathura="~/.local/bin/zathura"
-alias ncmpcpp="~/.config/ncmpcpp/ncmpcpp-ueberzug"
 alias ip="ifconfig | grep inet | head -n3  | tail -n1"
 alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selection c"
 alias grep="grep --color"
+alias pacman="pacman --color auto"
+
 #shortcuts
 gp(){
 grep -ir "$1"
@@ -59,4 +70,7 @@ pomodoro () {
 }
 
 alias wo="pomodoro 'work'"
-alias br="pomodoro 'break'"    
+alias br="pomodoro 'break'"
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+

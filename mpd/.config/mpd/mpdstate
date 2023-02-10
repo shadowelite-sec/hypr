@@ -1,0 +1,109 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:glava_fifo
+state: play
+current: 65
+time: 120.126000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Eenie Meenie Cover By Ray.mp3
+1:Pastlives.mp3
+2:Replay.mp3
+3:The Nights - Angie Cover.mp3
+4:Tiësto - 10 35.mp3
+5:Lil Nas X - Old Town Road.mp3
+6:Marian Hill - Down.mp3
+7:Blinding Lights.mp3
+8:All That Glitters.mp3
+9:Maroon 5 - Animals.mp3
+10:Arcade.mp3
+11:As It Was.mp3
+12:Charlie Puth - Attention.mp3
+13:August Diaries.mp3
+14:Rockstar.mp3
+15:Orasaadha.mp3
+16:Bilionera.mp3
+17:Loi - Blinding Lights.mp3
+18:Broken Angel.mp3
+19:Can We Kiss Forever.mp3
+20:CKay - love nwantiti (ah ah ah).mp3
+21:Play Date.mp3
+22:Dancin.mp3
+23:Dandelions Slowed.mp3
+24:death bed.mp3
+25:Don t Let Me Down.mp3
+26:Heat Waves.mp3
+27:DJ Snake - Let Me Love You.mp3
+28:Enslaved.mp3
+29:Faded.mp3
+30:1,2,3.mp3
+31:Jaymes Young - Infinity.mp3
+32:Dusk Till Dawn.mp3
+33:One Direction - Night Changes.mp3
+34:Marshmello - FRIENDS.mp3
+35:Dua Lipa - Levitating.mp3
+36:Gangsta s Paradise.mp3
+37:Get You The Moon.mp3
+38:Glimpse of Us.mp3
+39:Falling.mp3
+40:Running Up That Hill.mp3
+41:In The End.mp3
+42:In the Name of Love.mp3
+43:Chris Brown - Under The Influence.mp3
+44:Little Do You Know.mp3
+45:Let Me Down Slowly.mp3
+46:Love Is Gone.mp3
+47:Lovely.mp3
+48:Lovin' Every Minute .mp3
+49:Lullaby of Woe.mp3
+50:Memories.mp3
+51:MIDDLE OF THE NIGHT.mp3
+52:Adam Maniac Remix.mp3
+53:Andro - Isa.mp3
+54:Moral of the Story.mp3
+55:Justin Bieber - Baby.mp3
+56:Charlie_Puth_We_Don't_Talk_Anymore.mp3
+57:Nobody Cares.mp3
+58:Love Story.mp3
+59:Numb Little Bug.mp3
+60:On The Floor.mp3
+61:Bad Liar.mp3
+62:Love Yourself.mp3
+63:Queen of Hearts.mp3
+64:Rockaby.mp3
+65:Runaway.mp3
+66:Safari.mp3
+67:Dandelions.mp3
+68:Savage Love.mp3
+69:Shawn Mendes - Señorita.mp3
+70:Becky G - Shower.mp3
+71:Slow Motion.mp3
+72:Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3
+73:Something Just Like This.mp3
+74:Coming Home.mp3
+75:I Feel It Coming.mp3
+76:Stay.mp3
+77:Stereo Hearts.mp3
+78:Stereo Love.mp3
+79:Sugar Brownies.mp3
+80:Tiësto - The Business.mp3
+81:Need Your Love.mp3
+82:The Nights.mp3
+83:Dance Monkey.mp3
+84:At My Worst.mp3
+85:Unstoppable.mp3
+86:Mr.Kitty - After Dark.mp3
+87:Way Back Home.mp3
+88:crown.mp3
+89:Why Do I_.mp3
+90:Halsey - Without Me.mp3
+91:Ed Sheeran - Photograph.mp3
+92:you were there for me.mp3
+93:You re Somebody Else.mp3
+playlist_end
