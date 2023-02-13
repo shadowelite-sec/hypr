@@ -24,6 +24,8 @@ Plug 'rcarriga/nvim-notify'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'alvan/vim-closetag'
 Plug 'ray-x/web-tools.nvim'
+Plug 'mattn/emmet-vim'
+Plug 'ray-x/aurora'
 
 call plug#end()
 
@@ -45,6 +47,30 @@ nnoremap <C-i> :Startify<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <C-n> :set number!<CR>
+
+" emmet
+let g:user_emmet_leader_key=','
+let g:user_emmet_settings = {
+\  'variables': {'lang': 'en'},
+\  'html': {
+\    'default_attributes': {
+\      'option': {'value': v:null},
+\      'textarea': {'id': v:null, 'name': v:null, 'cols': 10, 'rows': 10},
+\    },
+\    'snippets': {
+\      'html:5': "<!DOCTYPE html>\n"
+\              ."<html lang=\"${lang}\">\n"
+\              ."<head>\n"
+\              ."\t<meta charset=\"${charset}\">\n"
+\              ."\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
+\              ."\t<title></title>\n"
+\              ."</head>\n"
+\              ."<body>\n\t${child}|\n</body>\n"
+\              ."</html>",
+\    },
+\  },
+\}
+
 
 "auto code running
 augroup exe_code
@@ -416,12 +442,26 @@ let g:startify_custom_header = [
 " `gui` is the hex color code used in GUI mode/nvim true-color mode
 " `cterm` is the color code used in 256-color mode
 " `cterm16` is the color code used in 16-color mode
-if (has("autocmd") && !has("gui_running"))
-  augroup colorset
-    autocmd!
-    let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
-    autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " `bg` will not be styled since there is no `bg` setting
-  augroup END
-endif
+"if (has("autocmd") && !has("gui_running"))
+"  augroup colorset
+"    autocmd!
+"    let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
+"    autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " `bg` will not be styled since there is no `bg` setting
+"  augroup END
+"endif
+"
+"colorscheme onedark
 
-colorscheme onedark
+let g:aurora_italic = 1     " italic
+let g:aurora_transparent = 1     " transparent
+let g:aurora_bold = 1     " bold
+let g:aurora_darker = 1 
+
+colorscheme aurora
+
+" customize your own highlight with lua
+lua <<EOF
+  vim.api.nvim_set_hl(0, '@string', {fg='#59E343'})
+  vim.api.nvim_set_hl(0, '@field', {fg='#f93393'})
+  vim.api.nvim_set_hl(0, '@number', {fg='#e933e3'})
+EOF

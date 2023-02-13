@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:glava_fifo
-state: play
-current: 65
-time: 120.126000
+state: pause
+current: 33
+time: 40.182000
 random: 0
 repeat: 0
 single: 0
@@ -21,31 +21,31 @@ playlist_begin
 6:Marian Hill - Down.mp3
 7:Blinding Lights.mp3
 8:All That Glitters.mp3
-9:Maroon 5 - Animals.mp3
-10:Arcade.mp3
-11:As It Was.mp3
-12:Charlie Puth - Attention.mp3
-13:August Diaries.mp3
-14:Rockstar.mp3
-15:Orasaadha.mp3
-16:Bilionera.mp3
-17:Loi - Blinding Lights.mp3
-18:Broken Angel.mp3
-19:Can We Kiss Forever.mp3
-20:CKay - love nwantiti (ah ah ah).mp3
-21:Play Date.mp3
-22:Dancin.mp3
-23:Dandelions Slowed.mp3
-24:death bed.mp3
-25:Don t Let Me Down.mp3
-26:Heat Waves.mp3
-27:DJ Snake - Let Me Love You.mp3
-28:Enslaved.mp3
-29:Faded.mp3
-30:1,2,3.mp3
-31:Jaymes Young - Infinity.mp3
-32:Dusk Till Dawn.mp3
-33:One Direction - Night Changes.mp3
+9:Arcade.mp3
+10:As It Was.mp3
+11:Charlie Puth - Attention.mp3
+12:August Diaries.mp3
+13:Rockstar.mp3
+14:Orasaadha.mp3
+15:Bilionera.mp3
+16:Loi - Blinding Lights.mp3
+17:Broken Angel.mp3
+18:Can We Kiss Forever.mp3
+19:CKay - love nwantiti (ah ah ah).mp3
+20:Play Date.mp3
+21:Dancin.mp3
+22:Dandelions Slowed.mp3
+23:death bed.mp3
+24:Don t Let Me Down.mp3
+25:Heat Waves.mp3
+26:DJ Snake - Let Me Love You.mp3
+27:Enslaved.mp3
+28:Faded.mp3
+29:1,2,3.mp3
+30:Jaymes Young - Infinity.mp3
+31:Dusk Till Dawn.mp3
+32:One Direction - Night Changes.mp3
+33:Maroon 5 - Animals.mp3
 34:Marshmello - FRIENDS.mp3
 35:Dua Lipa - Levitating.mp3
 36:Gangsta s Paradise.mp3
